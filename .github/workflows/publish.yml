@@ -24,7 +24,7 @@ jobs:
         with:
           registry: ghcr.io
           username: sabypractice
-          password: Saby_11203092
+          password: *******
       - name: Build container
         uses: docker/build-push-action@v5
         with:
